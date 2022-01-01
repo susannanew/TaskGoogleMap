@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textSize="18sp"
+        android:gravity="fill_vertical"
+        android:paddingStart="10sp"
+        android:textStyle="bold"
+        android:text="Place Name"/>
+
+</androidx.cardview.widget.CardView>
